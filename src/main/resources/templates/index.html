@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${titulo}"></title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+</head>
+<body>
+    <h1 class="color-rojo" th:text="${titulo}"></h1>
+    <h2 class="color-azul">Decorando con estilos css recursos estaticosa</h2>
+    <img th:src="@{/imagen/logo.png}">
+</body>
+</html>
